@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" locus="All" version="4">
+    <Resources>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-ASD_ID_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Connective_Tissue_Metabo_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Epigenetic_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Mitochondrial_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Neurodegenerative_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Sensory_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-iPlex_Markers_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-ASD_ID_Panel_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Connective_Tissue_Metabo_Panel_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Epigenetic_Panel_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Mitochondrial_Panel_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Neurodegenerative_Panel_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Sensory_Panel_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-iPlex_Markers_result.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-ASD_ID_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Connective_Tissue_Metabo_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Epigenetic_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Mitochondrial_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Neurodegenerative_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Sensory_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-iPlex_Markers_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/RepeatMasker_sorted.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/wgEncodeDukeMapabilityUniqueness35bp.bigWig"/>
+    </Resources>
+    <Panel height="920" name="DataPanel" width="1903">
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/RepeatMasker_sorted.bw" name="RepeatMasker" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0098547" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/wgEncodeDukeMapabilityUniqueness35bp.bigWig" name="DukeUniqueMapability35bp" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.9554591" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-ASD_ID_Panel_result.bedGraph" name="ASD_ID Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-ASD_ID_Panel_result.bw" name="ASD_ID Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.882353" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-ASD_ID_Panel_result.bedGraph" name="ASD_ID Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Connective_Tissue_Metabo_Panel_result.bedGraph" name="Connective_Tissue_Metabo Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Connective_Tissue_Metabo_Panel_result.bw" name="Connective_Tissue_Metabo Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.939394" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Connective_Tissue_Metabo_Panel_result.bedGraph" name="Connective_Tissue_Metabo Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Epigenetic_Panel_result.bedGraph" name="Epigenetic Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Epigenetic_Panel_result.bw" name="Epigenetic Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.7708334" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Epigenetic_Panel_result.bedGraph" name="Epigenetic Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-iPlex_Markers_result.bedGraph" name="iPlex_Markers_result-Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-iPlex_Markers_result.bw" name="iPlex_Markers_result Bait Tiling.bw" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.84" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-iPlex_Markers_result.bedGraph" name="iPlex_Markers_result-Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Mitochondrial_Panel_result.bedGraph" name="Mitochondrial Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Mitochondrial_Panel_result.bw" name="Mitochondrial Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.9854546" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Mitochondrial_Panel_result.bedGraph" name="Mitochondrial Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Neurodegenerative_Panel_result.bedGraph" name="Neurodegenerative Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Neurodegenerative_Panel_result.bw" name="Neurodegenerative Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.9238195" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Neurodegenerative_Panel_result.bedGraph" name="Neurodegenerative Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Sensory_Panel_result.bedGraph" name="Sensory Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,178,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling_bed-Sensory_Panel_result.bw" name="Sensory Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.9669422" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="128,0,0" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredRegions-Sensory_Panel_result.bedGraph" name="Sensory Uncovered" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="96" name="FeaturePanel" width="1903">
+        <Track altColor="0,0,178" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" showDataRange="true" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" color="0,0,178" colorScale="ContinuousColorScale;0.0;236.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="35" id="hg19_genes" name="RefSeq Genes" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="236.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <PanelLayout dividerFractions="0.895010395010395"/>
+</Session>

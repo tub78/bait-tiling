@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" locus="chr21:33029009-33046734" version="4">
+    <Resources>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Sensory_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredROI-exons.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/winmasker-repeats.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/CCDS-genes.bed"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/RepeatMasker_sorted.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Epigenetic_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-iPlex_Markers_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Neurodegenerative_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/refseq-extra-exons.bed"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling.bw"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-ASD_ID_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Connective_Tissue_Metabo_Panel_result.bedGraph"/>
+        <Resource path="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Mitochondrial_Panel_result.bedGraph"/>
+    </Resources>
+    <Panel height="339" name="DataPanel" width="1260">
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/RepeatMasker_sorted.bw" name="RepeatMasker" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0098547" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/winmasker-repeats.bw" name="WinMasker Repeats" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="179,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/UncoveredROI-exons.bw" name="Uncovered Regions" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="3.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,128,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTiling.bw" name="Agilent Bait Tiling" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="4.8" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-ASD_ID_Panel_result.bedGraph" name="ASD_ID Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Connective_Tissue_Metabo_Panel_result.bedGraph" name="Connective_Tissue_Metabo Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Epigenetic_Panel_result.bedGraph" name="Epigenetic Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-iPlex_Markers_result.bedGraph" name="iPlex_Markers Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Mitochondrial_Panel_result.bedGraph" name="Mitochondrial Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Neurodegenerative_Panel_result.bedGraph" name="Neurodegenerative Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoscale="false" color="0,0,128" displayMode="SQUISHED" featureVisibilityWindow="-1" fontSize="10" height="29" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Panels/BaitTargets-Sensory_Panel_result.bedGraph" name="Sensory Targets" renderer="BAR_CHART" showDataRange="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="216" name="FeaturePanel" width="1260">
+        <Track altColor="0,0,178" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="49" id="Reference sequence" name="Reference sequence" showDataRange="true" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" color="0,0,178" colorScale="ContinuousColorScale;0.0;236.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="49" id="hg19_genes" name="RefSeq Genes" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="236.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" color="0,0,178" colorScale="ContinuousColorScale;0.0;162.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="49" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/CCDS-genes.bed" name="CCDS Genes" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="162.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="49" id="/Users/stu/Research/Pathology/Sequence-Analysis/SamanthaPottinger/Repeats/refseq-extra-exons.bed" name="RefSeq - CCDS exons" renderer="BASIC_FEATURE" showDataRange="true" sortable="false" visible="true" windowFunction="count"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.6067615658362989"/>
+    <Regions>
+        <Region chromosome="chr12" description="Connective_Tissue_Metabo" end="53073876" start="53073727"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33054703" start="33054473"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33058534" start="33058234"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33060458" start="33060145"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33061922" start="33061608"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33062272" start="33061965"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33062813" start="33062516"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33072437" start="33072290"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33079683" start="33079510"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33080716" start="33080419"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33082880" start="33082592"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33084753" start="33084524"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33085127" start="33084841"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33090547" start="33090267"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33091633" start="33091327"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33092105" start="33091812"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33094325" start="33094029"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33095300" start="33094984"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33095818" start="33095562"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33098326" start="33098158"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33098659" start="33098353"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33099024" start="33098811"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33099688" start="33099384"/>
+        <Region chromosome="chr21" description="Neurodegenerative" end="33100083" start="33099826"/>
+        <Region chromosome="chr7" description="Neurodegenerative" end="94227339" start="94227192"/>
+        <Region chromosome="chrX" description="Sensory" end="38145856" start="38145073"/>
+        <Region chromosome="chrX" description="Sensory" end="38146236" start="38145877"/>
+        <Region chromosome="chrX" description="ASD_ID" end="53263627" start="53263496"/>
+        <Region chromosome="chr14" description="ASD_ID" end="29236736" start="29236599"/>
+        <Region chromosome="chr17" description="Connective_Tissue_Metabo" end="38975391" start="38975124"/>
+        <Region chromosome="chr16" description="Sensory" end="53656291" start="53656081"/>
+        <Region chromosome="chr1" description="Connective_Tissue_Metabo" end="26128658" start="26128485"/>
+        <Region chromosome="chr1" description="Connective_Tissue_Metabo" end="153233653" start="153233506"/>
+        <Region chromosome="chr1" description="Connective_Tissue_Metabo" end="153233875" start="153233742"/>
+        <Region chromosome="chr19" description="Mitochondrial" end="5893351" start="5893194"/>
+        <Region chromosome="chr19" description="Neurodegenerative" end="10290960" start="10290813"/>
+        <Region chromosome="chr2" description="Sensory" end="202490109" start="202489805"/>
+        <Region chromosome="chr2" description="Sensory" end="202491802" start="202491523"/>
+        <Region chromosome="chr2" description="Sensory" end="202497513" start="202497207"/>
+        <Region chromosome="chr2" description="Sensory" end="202500508" start="202500197"/>
+        <Region chromosome="chr2" description="Sensory" end="202502522" start="202502163"/>
+        <Region chromosome="chr2" description="Sensory" end="202504547" start="202504234"/>
+        <Region chromosome="chr2" description="Sensory" end="202505997" start="202505736"/>
+        <Region chromosome="chr4" description="Neurodegenerative" end="3076760" start="3076613"/>
+        <Region chromosome="chr4" description="Sensory" end="47973131" start="47972891"/>
+    </Regions>
+</Session>
